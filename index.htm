@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Record Form</title>
+
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+</head>
+<body>
+	<div class="container">
+		<div class="wrapper">
+			<div class="main-sec text-c">
+				<h2>Student Record Form</h2>
+				<form>
+					<div class="data-field">
+						<input type="text" name="name" placeholder="NAME" autocomplete="off" required>
+					</div>
+					<div class="data-field">
+						<input type="text" name="name" placeholder="FATHER NAME" autocomplete="off" required>
+					</div>
+					<div class="row">
+						<div class="col-half">
+							<label>DOB</label>
+							<div class="data-field">
+								<input type="date" name="dob">
+							</div>
+						</div>
+						<div class="col-half">
+							<label>Gender </label>
+							<div class="data-field text-c">
+								<select class="gender">
+									<option value=""></option>
+									<option value="MALE">MALE</option>
+									<option value="FEMALE">FEMALE</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="text-c cb">
+							<label>Address</label>
+							<div class="data-field text-c">
+								<textarea cols="5" rows="3" placeholder="Enter Address..." autocomplete="off" required></textarea>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-half">
+							<label>Branch </label>
+								<div class="data-field">
+									<select class="br">
+										<option value=""></option>
+										<option value="ME">ME</option>
+										<option value="CE">CE</option>
+										<option value="CSE">CSE</option>
+										<option value="IT">IT</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-half">
+								<label>Semster </label>
+									<div class="data-field">
+										<select class="sem">
+											<option value=""></option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+										</select>
+									</div>
+								</div>
+							<div class="col-half">
+								<label>Student Mobile No.</label>
+								<div class="data-field">
+									<input type="tel" name="tel" placeholder="987654XXXX" maxlength="10">
+								</div>
+							</div>
+							<div class="col-half">
+								<label>Father Mobile No.</label>
+								<div class="data-field">
+									<input type="tel" name="tel" placeholder="987654XXXX" maxlength="10">
+								</div>
+							</div>
+						</div>
+						<div class="btn">
+							<button>Submit</button>
+						</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,157 @@
+
+	@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+	/*======= width  =======*/
+	.col-full {
+		width: 100%;
+	}
+
+	.col-half {
+		width: 49.8%;
+		float: left;
+	}
+
+	.col-half-1{
+		width: 33%;
+	}
+
+	.row:before,
+	.row:after {
+		content: "";
+		display: table;
+	}
+
+	.row:after {
+		clear: both;
+	}
+	/*=========*/
+
+	.text-c{
+		text-align: center;
+	}
+
+	*,
+	*:before,
+	*:after {
+		box-sizing: border-box;
+	}
+
+
+	html,
+	input,
+	select,
+	textarea,
+	button {
+		font-family: 'Poppins', sans-serif;
+	}
+
+	body {
+		background: url(../images/blue.jpg);
+		background-attachment: fixed;
+	}
+	
+	input,
+	select,
+	textarea {
+		width: 100%;
+		padding: 13px;
+		margin: 10px auto;
+		outline: 0;
+		border:0;
+		background-color: #eee;
+	}
+	label {
+		font-size: 18px;
+		font-weight: 600;
+		color: #28B463;
+	}
+	.data-field {
+		margin: 5px 10px;
+		border:2px solid white;
+		border-radius: 5px;
+		background-color: #eee;
+	}
+	
+	.data-field:hover,
+	.data-field:focus {
+		border-color:  #083a00;
+		transition: 0.6s linear;
+	}
+
+/*	textarea:focus,
+	textarea:hover,
+	input:focus,
+	input:hover {
+		border-color: #083a00;
+	}*/
+
+	input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+	}	
+
+	input[type=date] {
+		text-transform: uppercase;
+		color: #4CAF50;
+	}
+
+	input::-webkit-input-placeholder,
+	textarea::-webkit-input-placeholder {
+		color: #4CAF50;
+	}
+
+	textarea {
+		resize: none;
+		overflow: hidden;
+	}
+
+	.container {
+		margin: 10% auto;
+		width: 75%;
+		z-index: 222;
+		padding: 40px 20px;
+		background-color: rgba(0,0,0,0.4);
+		border-radius: 15px;
+	}
+
+	.wrapper {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.main-sec h2 {
+		color: #d2ced3;
+	}
+	
+	div.btn {
+		margin: 5px 10px;
+	}
+	
+	.btn button {
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 1.4;
+		padding: 10px 0;
+		width: 100%;
+		border-radius: 5px;
+	}
+
+	.btn button:hover {
+		color: white;
+		background-color: #083a00;
+		border: 2px solid white;
+		box-shadow: 1px 1px 4px rgba(0, 0 ,0 ,0.9);
+		transition: 0.5s ease-in-out;
+	}
+
+@media only screen and (max-width: 448px) {
+		
+		.col-half {
+		width: 100%;
+	}
+
+	.col-half-1{
+		width: 49.8%;
+	}
+}

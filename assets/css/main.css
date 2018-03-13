@@ -235,6 +235,29 @@
 						width: 50%;
 						margin: 10px auto;
 					}
+			/* ================================
+						all student data pages
+						========================*/
 
-
+					div.container1 {
+						width: 75%;
+						margin: 5% auto;
+						z-index: 222;
+						padding: 40px 20px;
+						background-color: rgba(0,0,0,0.4);
+						border-radius: 15px;
+					}
+					.body {
+						width: 100%;
+					}
+					
+					.data-1, .data-2 {
+						text-align: left;
+						padding-left: 15%;
+					}
+					
+					.data-1 span,
+					.data-2 span {
+						font-weight: 200;
+					} 
 
